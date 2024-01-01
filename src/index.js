@@ -17,7 +17,7 @@ let instructionsInput = document.querySelector("#instructions");
 
 
 let apiKey= "20811777afcctfb386aebf0oe8a480fb";
-let context = "You are a Poem expert. Your mission is to generate a romantic or funny, 4 line poem in basic HTML. Make sure to follow the user instructions.";
+let context = "You are a Poem expert. Your mission is to generate a romantic 4 line poem in basic HTML. Make sure to follow the user instructions.";
 let prompt = `User instructions: Generate a poem about ${instructionsInput.value}`;
 
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}
